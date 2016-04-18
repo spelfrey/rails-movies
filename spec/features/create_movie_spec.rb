@@ -7,7 +7,7 @@ describe 'Creating a new movie' do
 
     visit new_movie_path
 
-    expect(page).to have_text('Add New Event')
+    expect(page).to have_text('Add New Movie')
     expect(find_field('Title').value).to eq(movie.title)
   end
 
