@@ -24,7 +24,9 @@ branches by rebasing before merging.
 * Squash commits into logical, deployable units of work (`git rebase -i HEAD~n` where n = number of commits you made)
 * Submit a Pull Request, making sure that you are up to date with the latest code in master
 * Make any needed changes and push again (`git commit --amend`, `git push -f`)
+* Checkout master branch to prepare for merge ('git checkout master')
 * Merge your branch into master by fast-forwarding (`git merge --ff-only feature/name`)
+* Push your merged changes ('git push')
 * Delete your feature branch (`git branch -d feature/name`, `git push origin :feature/name`)
 
 #### Configuration
