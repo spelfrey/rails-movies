@@ -3,7 +3,7 @@
 <!--<%=	link_to('Add New Movie', new_movie_path)%>-->
 
 <% @movies.each do |movie| %>
-    <article>
+    <article class="movie">
       <header>
         <h2><%= link_to( movie.title, movie) %></h2>
       </header>
