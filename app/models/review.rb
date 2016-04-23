@@ -1,4 +1,5 @@
 class Review < ActiveRecord::Base
+  belongs_to :movie
 
   validates :name, presence: true
 
@@ -10,5 +11,4 @@ class Review < ActiveRecord::Base
       message: 'must be between 1 and 5'
   }
 
-  belongs_to :movie
 end
