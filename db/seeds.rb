@@ -103,3 +103,30 @@ Movie.create!([
                       total_gross: 387_623_910
                   }
               ])
+
+Review.create!([
+                   {
+                       name: 'Erk',
+                       stars: 3,
+                       comment: 'GATA',
+                       movie_id: 1
+                   },
+                   {
+                       name: 'Gus',
+                       stars: 4,
+                       comment: 'Go Eagles!',
+                       movie_id: 1
+                   },
+                   {
+                       name: 'Erk',
+                       stars: 1,
+                       comment: 'Runt movie.',
+                       movie_id: 2
+                   },
+                   {
+                       name: 'Gus',
+                       stars: 5,
+                       comment: 'Hail Southern!',
+                       movie_id: 3
+                   }
+               ])
