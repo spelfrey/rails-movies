@@ -12,7 +12,7 @@ serve as the developer documentation for the evolution of the app.
 * Merges to master should be fast-forward only. Changes made in master should be re-integrated with
 branches by rebasing before merging.
 
-##### References
+##### References (read)
 
 * [A Note about Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
