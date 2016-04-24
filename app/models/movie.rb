@@ -25,4 +25,12 @@ class Movie < ActiveRecord::Base
     Movie.where('released_on < ?', now).order('released_on desc')
   end
 
+  def average_stars
+    reviews.average(:stars)
+  end
+
+  def has_stars?
+    average_stars.nil?
+  end
+
 end
