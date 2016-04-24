@@ -31,8 +31,8 @@
   <%=	link_to pluralize(@movie.reviews.size, 'Review'), movie_reviews_path(@movie) %>
 
   <footer>
+    <%=	link_to 'Write Review', new_movie_review_path(@movie), class: 'button ok review' %>
     <nav>
-      <%=	link_to 'Write Review', new_movie_review_path(@movie), class: 'button ok' %>
       <%= link_to 'Edit', edit_movie_path(@movie), class: 'button' %>
       <%= link_to 'Delete', @movie,
                   class: 'button',
